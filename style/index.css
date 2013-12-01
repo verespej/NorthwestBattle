@@ -1,0 +1,74 @@
+.main-description {
+	text-align: justify;
+}
+
+.team-heading-container {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.team-logo-col {
+	width: 80px;
+}
+
+.team-logo {
+	width: 80px;
+}
+
+.team-name-col {
+	padding-left: 20px;
+}
+
+.team-name {
+	font-weight: bold;
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+.team-name-short {
+	font-size: 36px;
+}
+
+.team-name-long {
+	font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+	.team-name-short {
+		font-size: 36px;
+	}
+
+	.team-name-long {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.team-name-short {
+		font-size: 54px;
+	}
+
+	.team-name-long {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.team-name-short {
+		font-size: 54px;
+	}
+
+	.team-name-long {
+		font-size: 54px;
+	}
+}
+
+.team-rightarrow-col {
+	text-align: right;
+}
+
+.team-rightarrow {
+	font-size: 54px;
+	vertical-align: middle;
+}
+
