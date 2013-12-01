@@ -1,11 +1,14 @@
 body {
 	background-color: #000000;
 	color: #ffffff;
+	line-height: 1.25;
+	font-size: 18px;
+	text-align: justify;
 }
 
 a:link { color: #ffffff; }
 a:visited { color: #ffffff; }
-a:hover { color: #bbbbbb; }
+a:hover { color: #ffbbbb; }
 a:active { color: #ffffff; }
 
 div.header {
@@ -15,34 +18,92 @@ div.header {
 	margin-bottom: 25px;
 }
 
-div.main-text {
+.main-description {
 	text-align: justify;
 }
 
-div.main-team-logo-col {
-	padding-right: 0px;
-}
-
-img.main-team-logo {
+.team-heading-container {
 	width: 100%;
+	margin-bottom: 10px;
 }
 
-.main-team-name {
+.team-logo-col {
+	width: 80px;
+}
+
+.team-logo {
+	width: 80px;
+}
+
+.team-name-col {
+	padding-left: 20px;
+}
+
+.team-name {
 	font-weight: bold;
 	margin-top: 0px;
+	vertical-align: middle;
 }
 
-.main-team-rightarrow {
-	padding-left: 0px;
+.team-name-short {
+	font-size: 36px;
 }
 
-a.btn-primary {
-	background-color:	#ff0000;
-	border-color: #ff2222;
+.team-name-long {
+	font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+	.team-name-short {
+		font-size: 36px;
+	}
+
+	.team-name-long {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.team-name-short {
+		font-size: 54px;
+	}
+
+	.team-name-long {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.team-name-short {
+		font-size: 54px;
+	}
+
+	.team-name-long {
+		font-size: 54px;
+	}
+}
+
+.team-rightarrow-col {
+	text-align: right;
+}
+
+.team-rightarrow {
+	font-size: 54px;
+	vertical-align: middle;
+}
+
+.btn-primary {
+	background-color:	#dd1122;
+	border-color: #dd2233;
 	white-space: normal;
 }
 
-div.aspect-ratio {
+.btn-primary:hover {
+	background-color: #ee2233;
+	border-color: #ee3344;
+}
+
+.aspect-ratio {
 	position: relative;
 	width: 100%;
 	height: 0px;
@@ -50,7 +111,7 @@ div.aspect-ratio {
 	margin-bottom: 10px;
 }
 
-div.aspect-ratio iframe {
+.aspect-ratio iframe {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -70,7 +131,8 @@ img.team-member-profile-tw {
 	height: 16px;
 }
 
-a.twitter-timeline {
+.twitter-timeline {
 	width: 100%;
 }
+
 
