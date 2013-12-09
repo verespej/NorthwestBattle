@@ -16,6 +16,8 @@ div.header {
 	text-align: center;
 	width: 100%;
 	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .btn-primary {
